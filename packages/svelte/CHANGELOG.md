@@ -1,5 +1,17 @@
 # svelte
 
+## 5.0.0-next.150
+
+### Patch Changes
+
+- fix: omit `state_referenced_locally` warning for component exports ([#11905](https://github.com/sveltejs/svelte/pull/11905))
+
+- fix: ensure event.target is correct for delegation ([#11900](https://github.com/sveltejs/svelte/pull/11900))
+
+- feat: bind `activeElement` and `pointerLockElement` in `<svelte:document>` ([#11879](https://github.com/sveltejs/svelte/pull/11879))
+
+- fix: add `unused-export-let` to legacy lint replacements ([#11896](https://github.com/sveltejs/svelte/pull/11896))
+
 ## 5.0.0-next.149
 
 ### Patch Changes
